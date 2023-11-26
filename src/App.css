@@ -12,6 +12,9 @@ body {
   h2{
    margin-top: -300px;
   }
+  h2:hover{
+    color: rgb(53, 214, 214);
+  }
   
   .bbtn {
     padding: 10px;
@@ -25,12 +28,23 @@ body {
   
   p {
     margin-top: 20px;
-    margin-left: 70px;
-    color: burlywood;
+    margin-left: 85px;
     font-size: 20px;
     font-weight: 300;
   }
   h1{
+    color: red;
     margin-left: -30px;
     margin-bottom: 500px;
   }
+  img{
+    width: 50px;  /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border: none; /* Remove the default button border */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+    background: none;/* Remove the default button background */
+    padding: 0; /* Remove any default padding */
+    margin-left: 25px; /* Remove any default margin */
+  }
+  
+  
