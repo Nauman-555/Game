@@ -1,21 +1,24 @@
 body {
+  background-image: url(gameback.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
     font-family: 'Arial', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
   .About {
     text-align: center;
   }
-  
   h2{
-   margin-top: -300px;
+    margin-left: 80px;
+    color: wheat;
+   margin-top: -350px;
   }
   h2:hover{
     color: rgb(53, 214, 214);
   }
-  
   .bbtn {
     padding: 10px;
     font-size: 16px;
@@ -25,16 +28,14 @@ body {
   .bbtn:hover{
     background-color: rgb(244, 99, 99)
   }
-  
   p {
-    margin-top: 20px;
-    margin-left: 85px;
-    font-size: 20px;
-    font-weight: 300;
+    margin-left: 5px;
+    color: rgb(24, 16, 2);
   }
   h1{
-    color: red;
-    margin-left: -30px;
+    color: wheat;
+    font-size: 80px;
+    margin-left: -250px;
     margin-bottom: 500px;
   }
   img{
@@ -44,7 +45,193 @@ body {
     cursor: pointer; /* Change cursor on hover to indicate interactivity */
     background: none;/* Remove the default button background */
     padding: 0; /* Remove any default padding */
-    margin-left: 25px; /* Remove any default margin */
+    margin-top: 20px;
+    margin-left: 70px; /* Remove any default margin */
   }
+  .ip{
+    /* padding-top: 0.2%; */
+    margin-left: 70px;
+    width: 290px;
+    background-color: rgb(234, 229, 122);
+    font-size: x-large;
+    /* box-sizing: border-box; */
+    /* border-radius: 2px solid black; */
+    /* padding-bottom: 0.5rem; */
+  }
+  .one{
+    /* padding-top: 15px; */
+    margin-left: 80px;
+  }
+  .two{
+    margin-left: 35px;
+  }
+  .tol{
+    @media (max-width:349px) {
+      font-size: 25px;
+      margin-left: 75px;
+    }
+  }
+  .res{
+    @media (max-width:349px) {
+      margin-right: 50px;
+    }
+  }
+  img{
+    @media (max-width:349px){
+
+      width: 40px;
+      height: 40px;
+      margin-left: 40px;
+    }
+  }
+  .ii{
+    @media (max-width:349px) {
+      margin-left: 60px;
+    }
+  }
+  p{
+    @media (max-width:349px) {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+  }
+  .ip{
+    @media (max-width:349px) {
+      margin-right: 6px;
+    }
+  }
+  .tol{
+    @media (min-width: 350px) and (max-width:369px) {
+      font-size: 30px;
+      margin-left: 50px;
+    }
+  }
+  .res{
+    @media (min-width: 350px) and (max-width:369px){
+      margin-right: 70px;
+    }
+  }
+  .tol{
+    @media (min-width: 370px) and (max-width:389px) {
+      font-size: 30px;
+      margin-left: 70px;
+    }
+  }
+  .res{
+    @media (min-width: 370px) and (max-width:389px){
+      margin-right: 70px;
+    }
+  }
+  .tol{
+    @media (min-width: 390px) and (max-width:400px) {
+      margin-top: 90px;
+      font-size: 30px;
+      margin-left: 70px;
+    }
+  }
+  .res{
+    @media (min-width: 390px) and (max-width:400px){
+      margin-right: 70px;
+    }
+  }
+  .tol{
+    @media (min-width: 401px) and (max-width:431px){
+      margin-top: 50px;
+      font-size: 30px;
+      margin-left: 60px;
+    }
+  }
+  .res{
+    @media (min-width: 401px) and (max-width:431px){
+      margin-top: 550px;
+      margin-right: 70px;
+    }
+  }
+  .tol{
+    @media (min-width: 432px) and (max-width:541px){
+      margin-top: 70px;
+      font-size: 40px;
+      margin-left: 100px;
+    }
+  }
+  .res{
+    @media (min-width: 432px) and (max-width:541px){
+      margin-top: 450px;
+      margin-right: 40px;
+      font-size: xx-large;
+    }
+  }
+  img{
+    @media (min-width: 432px) and (max-width:541px){
+
+      width: 100px;
+      height: 100px;
+      margin-left: 80px;
+    }
+  }
+  .ip{
+    @media (min-width: 432px) and (max-width:541px) {
+      width: 500px;
+      /* margin-left: 130px; */
+    }
+  }
+  p{
+    @media (min-width: 432px) and (max-width:541px) {
+      font-size: 40px;
+    }
+  }
+    .one{
+      @media (min-width: 432px) and (max-width:541px) {
+        margin-left: 160px;
+      }
+    }
+    .two{
+      @media (min-width: 432px) and (max-width:541px) {
+        margin-left: 70px;
+      }
+    }
   
+  .tol{
+    @media (min-width: 542px) and (max-width:1040px){
+      margin-top: 70px;
+      font-size: 50px;
+      margin-left: 80px;
+    }
+  }
+  .res{
+    @media (min-width: 542px) and (max-width:1040px){
+      margin-top: 550px;
+      margin-right: 100px;
+      font-size: xx-large;
+    }
+  }
+  img{
+    @media (min-width: 542px) and (max-width:1040px){
+
+      width: 100px;
+      height: 100px;
+      margin-left: 100px;
+    }
+  }
+  .ip{
+    @media (min-width: 542px) and (max-width:1040px) {
+      width: 500px;
+      margin-left: 100px;
+    }
+  }
+  p{
+    @media (min-width: 542px) and (max-width:1040px) {
+      font-size: 40px;
+    }
+  }
+  .one{
+    @media (min-width: 542px) and (max-width:1040px) {
+      margin-left: 160px;
+    }
+  }
+  .two{
+    @media (min-width: 542px) and (max-width:1040px) {
+      margin-left: 70px;
+    }
+  }
   
